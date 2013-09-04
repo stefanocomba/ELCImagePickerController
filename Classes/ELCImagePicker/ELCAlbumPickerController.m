@@ -90,7 +90,7 @@
 - (void)reloadTableView
 {
 	[self.tableView reloadData];
-	[self.navigationItem setTitle:@"Select an Album"];
+	[self.navigationItem setTitle: NSLocalizedString(@"Select an Album", @"Select an Album")];
 }
 
 - (void)selectedAssets:(NSArray*)assets
