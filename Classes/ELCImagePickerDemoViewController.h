@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ELCImagePickerController.h"
+#import "ELCImagePickerHeader.h"
 
 @interface ELCImagePickerDemoViewController : UIViewController <ELCImagePickerControllerDelegate, UINavigationControllerDelegate, UIScrollViewDelegate> 
 
-@property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
 @property (nonatomic, copy) NSArray *chosenImages;
 
 // the default picker controller
